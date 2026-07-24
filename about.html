@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>발산 가라오케 상세 정보 — 지역 조건, 영업 패턴, 이용 구조 완전 분석</title>
+<meta name="description" content="발산 지역 가라오케의 실제 영업 구조, 시간대별 분포, 가격대별 서비스 차이, 이용 전 확인해야 할 지역 특수 조건을 상세히 정리합니다.">
+<meta name="keywords" content="발산 가라오케 정보, 발산 가라오케 영업시간, 발산 가라오케 가격, 발산 노래방 조건, 발산 가라오케 지역 특성, 가라오케 이용 안내">
+<link rel="canonical" href="https://balsan-karaoke-bar-note.nrb-apgujeong-guide.xyz/info">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-night-teal">
+<meta property="og:title" content="발산 가라오케 상세 정보 — 지역 조건, 영업 패턴, 이용 구조 완전 분석">
+<meta property="og:description" content="발산 지역 가라오케의 실제 영업 구조, 시간대별 분포, 가격대별 서비스 차이, 이용 전 확인해야 할 지역 특수 조건을 상세히 정리합니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://balsan-karaoke-bar-note.nrb-apgujeong-guide.xyz/info">
+<style>
+:root {
+  --bg-primary: #0a0f1a;
+  --bg-secondary: #111827;
+  --bg-card: #151d2e;
+  --bg-card-hover: #1a2540;
+  --text-primary: #e8edf5;
+  --text-secondary: #8899b0;
+  --text-muted: #556680;
+  --accent-teal: #00d4aa;
+  --accent-teal-dim: #00a888;
+  --accent-rose: #ff3366;
+  --accent-gold: #ffcc00;
+  --border-color: #1e2d45;
+  --border-active: #00d4aa;
+  --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-card: 0 2px 12px rgba(0,0,0,0.4);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-primary: #f0f2f5;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f5f7fa;
+    --text-primary: #1a1a2e;
+    --text-secondary: #555577;
+    --text-muted: #999999;
+    --accent-teal: #009977;
+    --accent-teal-dim: #007766;
+    --accent-rose: #cc2255;
+    --accent-gold: #cc9900;
+    --border-color: #dde1e8;
+    --border-active: #009977;
+    --shadow-card: 0 2px 12px rgba(0,0,0,0.08);
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-primary);
+}
+a {
+  color: var(--accent-teal);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover { color: var(--accent-teal-dim); }
+
+.m-wrap-lc6e {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.m-btn-fwud {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 2px solid var(--accent-teal);
+  color: var(--accent-teal);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.m-btn-fwud:hover {
+  background: var(--accent-teal);
+  color: var(--bg-primary);
+}
+
+.q-head-8gsj {
+  padding: 48px 0 32px;
+  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 40px;
+}
+.q-head-8gsj h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+.q-head-8gsj p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  max-width: 640px;
+}
+
+.k-list-geb6 {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.k-list-geb6 a {
+  display: block;
+  padding: 6px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+}
+.k-list-geb6 a:hover,
+.k-list-geb6 a[aria-current="page"] {
+  border-color: var(--accent-teal);
+  color: var(--accent-teal);
+  background: var(--bg-card-hover);
+}
+
+.m-img-m0kx {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  object-fit: cover;
+  display: block;
+}
+
+.q-item-tuql {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  margin-bottom: 20px;
+  transition: border-color 0.2s;
+}
+.q-item-tuql:hover {
+  border-color: var(--border-active);
+}
+.q-item-tuql h1 { font-size: 1.5rem; margin-bottom: 10px; }
+.q-item-tuql h2 { font-size: 1.25rem; margin-bottom: 8px; }
+.q-item-tuql h3 { font-size: 1.1rem; margin-bottom: 6px; }
+.q-item-tuql p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 12px; }
+.q-item-tuql p:last-child { margin-bottom: 0; }
+.q-item-tuql ul, .q-item-tuql ol {
+  padding-left: 20px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+.q-item-tuql li { margin-bottom: 6px; }
+
+.q-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent-teal);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.q-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.q-signal-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+.q-signal-tag--teal { background: rgba(0,212,170,0.12); color: var(--accent-teal); }
+.q-signal-tag--rose { background: rgba(255,51,102,0.12); color: var(--accent-rose); }
+.q-signal-tag--gold { background: rgba(255,204,0,0.12); color: var(--accent-gold); }
+
+.q-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+.q-data-table th {
+  text-align: left;
+  padding: 10px 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.q-data-table td {
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+.q-data-table tr:hover td {
+  background: var(--bg-card-hover);
+}
+
+.q-faq-item {
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px 0;
+}
+.q-faq-item:last-child { border-bottom: none; }
+.q-faq-item summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text-primary);
+  font-size: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.q-faq-item summary::after {
+  content: '+';
+  font-size: 1.2rem;
+  color: var(--accent-teal);
+  font-weight: 700;
+  transition: transform 0.2s;
+}
+.q-faq-item[open] summary::after {
+  content: '−';
+}
+.q-faq-item .faq-body {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 0.93rem;
+  line-height: 1.8;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 32px 0;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 768px) {
+  .m-wrap-lc6e { padding: 0 16px; }
+  .q-head-8gsj { padding: 32px 0 24px; }
+  .q-item-tuql { padding: 20px; }
+  .q-grid-2col { grid-template-columns: 1fr; }
+  .k-list-geb6 { gap: 6px; }
+  .q-data-table { font-size: 0.8rem; }
+  .q-data-table th, .q-data-table td { padding: 8px; }
+}
+</style>
+</head>
+<body>
+
+<div class="m-wrap-lc6e">
+
+<nav class="k-list-geb6">
+  <a href="/">홈</a>
+  <a href="/guide" aria-current="page">정보</a>
+  <a href="/about">소개</a>
+  <a href="/contact">문의</a>
+</nav>
+
+<header class="q-head-8gsj">
+  <h1>발산 가라오케,<br>읽어야 할 실질 정보</h1>
+  <p>감이 아니라 구조를 봐야 한다. 발산 일대 가라오케의 영업 패턴, 시간대 분포, 가격 구조, 그리고 지역 특수 조건까지 — 선택 전에 파악해야 할 사실만 정리했다.</p>
+</header>
+
+<!-- 섹션 1: 지역 시그널 -->
+<section style="margin-bottom: 48px;">
+  <div class="q-section-title">지역 시그널 — 발산은 어떤 곳인가</div>
+
+  <div class="q-item-tuql" style="margin-bottom: 16px;">
+    <h2>발산동 상권의 시간 구조</h2>
+    <p>발산은 강서구 내에서도 상대적으로 주거 밀도가 높은 지역이다. 그만큼 가라오케의 영업 리듬이 강남이나 홍대와 다르게 움직인다. 평일 저녁 7시부터 11시 사이가 피크 구간이며, 주말은 자정 이후까지 활성화된다.</p>
+    <p>офис 중심 상권이 아니기 때문에 점심 시간대 이용은 거의 없다. 반대로 주거 특성상 가족 단위, 동호회 모임, 퇴근 후 소규모 모임이 주요 이용 패턴이다.</p>
+    <div>
+      <span class="q-signal-tag q-signal-tag--teal">주거 밀도 높음</span>
+      <span class="q-signal-tag q-signal-tag--teal">퇴근 후 피크</span>
+      <span class="q-signal-tag q-signal-tag--gold">자정 이후 주말 활성</span>
+    </div>
+  </div>
+
+  <div class="q-grid-2col">
+    <div class="q-item-tuql">
+      <h3>평일 영업 패턴</h3>
+      <p>대부분 오후 5~6시 오픈. 피크는 19:00~23:00. 자정 전 폐점하는 곳이 절반 이상이다. 월요일 휴업 업소가 다수 존재하므로, 월요일 이용 계획이라면 사전 확인 필수.</p>
+    </div>
+    <div class="q-item-tuql">
+      <h3>주말 영업 패턴</h3>
+      <p>금요일과 토요일은 자정 이후 1시까지 운영하는 곳이 늘어난다. 일요일은 평일과 유사하거나 30분~1시간 정도 연장되는 경우가 일반적.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 섹션 2: 가격 구조 -->
+<section style="margin-bottom: 48px;">
+  <div class="q-section-title">가격 구조 — 만원 아래와 위의 세계</div>
+
+  <div class="q-item-tuql" style="margin-bottom: 16px;">
+    <h2>발산 가라오케 가격대 분포</h2>
+    <p>발산 지역 가라오케는 대체로 합리적 가격대를 형성하고 있다. 프랜차이즈 대형 업소와 로컬 소규모 업소 간 가격 차이는 생각보다 크지 않다. 다만 서비스 구성과 인프라에서 차이가 발생한다.</p>
+    <p>중요한 건 1인당 단가만 비교하지 말라는 것이다. 시간당 가격, 룸 타입별 차등, 식음료 제공 방식, 담당 시스템 유무 등 총합 비용을 봐야 한다.</p>
+  </div>
+
+  <table class="q-data-table">
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>보통 가격대</th>
+        <th>포함 항목</th>
+        <th>비고</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>소규모 로컬</td>
+        <td>1시간 기준 저가~중가</td>
+        <td>룸 사용, 기본 마이크, 룸 컨트롤</td>
+        <td>시설 노후도 확인 필요</td>
+      </tr>
+      <tr>
+        <td>중규모 업소</td>
+        <td>1시간 기준 중가</td>
+        <td>룸 사용, 모니터, 도우미 시스템</td>
+        <td>룸 타입에 따른 차등 존재</td>
+      </tr>
+      <tr>
+        <td>대형 프랜차이즈</td>
+        <td>1시간 기준 중가~고가</td>
+        <td>룸 사용, 고급 장비, 풀 서비스</td>
+        <td>예약 필수, 대기 시간 발생</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="q-item-tuql">
+    <h3>숨겨진 비용 체크 포인트</h3>
+    <ul>
+      <li><strong>도우미 시스템:</strong> 발산 일부 업소는 도우미 시스템이 기본 적용되어 있다. 추가 인원이 들어오면 비용이 붙는 구조이므로, 이용 전 반드시 인원수와 비용을 확인할 것.</li>
+      <li><strong>음식·주류:</strong> 일부 업소는 룸 서비스 식음료를 기본 세팅에 포함시키고 별도 과금한다. 무한 리필과 단품의 차이를 명확히 할 것.</li>
+      <li><strong>추가 시간:</strong> 10분~30분 추가 이용 시 시간당 단가 대비 높은 요금이 붙는 곳이 있다.</li>
+      <li><strong>주차:</strong> 발산은 주차 공간이 넉넉한 편이지만, 일부 건물은 주차비를 별도 부과한다.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 섹션 3: 룸 타입 & 인프라 -->
+<section style="margin-bottom: 48px;">
+  <div class="q-section-title">룸 타입 & 인프라 — 장비가 곧 경쟁력</div>
+
+  <div class="q-item-tuql" style="margin-bottom: 16px;">
+    <h2>룸 구성과 장비 수준의 실체</h2>
+    <p>가라오케의 핵심은 결국 룸이다. 발산 지역 업소들은 대체로 2~4인용 소형 룸을 기본으로 구성하고 있으며, 6인 이상 수용 가능한 대형 룸을 보유한 곳은 소수다.</p>
+    <p>장비 측면에서 주목할 점은 발산이 타 지역 대비 빠르게 시설 교체 주기가 돌아간다는 것이다. 주거 밀집 지역 특성상 단골층이 두터워, 장비 노후화가 곧 이탈로 이어지기 때문이다.</p>
+  </div>
+
+  <div class="q-grid-2col">
+    <div class="q-item-tuql">
+      <h3>공통 인프라 요소</h3>
+      <ul>
+        <li>디지털 모니터 시스템 (대부분 최신형)</li>
+        <li>무선 마이크 2~4개 기본 제공</li>
+        <li>룸 내 온도 조절 (에어컨·난방 개별)</li>
+        <li>방음 수준은 건물 구조에 따라 상이</li>
+      </ul>
+    </div>
+    <div class="q-item-tuql">
+      <h3>차별화 요소</h3>
+      <ul>
+        <li>대형 빔 프로젝터 (일부 업소)</li>
+        <li>노래방 전용 조명 시스템</li>
+        <li>고음역대 사운드 튜닝 룸 (귀족 룸)</li>
+        <li>풀바 구성 (주류 셀프 시스템)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="q-item-tuql">
+    <span class="q-signal-tag q-signal-tag--rose">주의</span>
+    <p style="display:inline; font-size:0.95rem;">웹사이트 사진과 실제 룸 상태가 다를 수 있다. 발산 일부 업소는 촬영 시점을 기준으로 시설이 교체된 경우가 있다. 방문 전 전화로 현재 룸 상태를 확인하는 것이 가장 정확하다.</p>
+  </div>
+</section>
+
+<!-- 섹션 4: 이용 조건 & 지역 특수사항 -->
+<section style="margin-bottom: 48px;">
+  <div class="q-section-title">이용 조건 & 지역 특수사항</div>
+
+  <div class="q-item-tuql" style="margin-bottom: 16px;">
+    <h2>발산에서 가라오케 이용할 때 알아야 할 것</h2>
+    <p>지역마다 룰이 있다. 발산은 타 상권과 비교해 유동 인구가 적고, 대부분 예약·단골 중심으로 움직인다. 처음 가는 업소라면 예약 없이 바로 입장해도 되지만, 주말이나 금요일 저녁은 반드시 예약을 권장한다.</p>
+  </div>
+
+  <div class="q-item-tuql">
+    <h3>예약 & 방문 관련</h3>
+    <ul>
+      <li><strong>예약 방식:</strong> 전화 예약이 기본. 일부 업소는 카카오톡 채널을 운영하지만, 전화가 가장 확실하다.</li>
+      <li><strong>대기 시간:</strong> 주말 20:00~23:00 구간은 대기 시간 발생 가능성 높음. 최소 30분 여유를 두고 방문.</li>
+      <li><strong>예약 취소:</strong> 대부분 2시간 전까지 무료 취소 가능. 당일 취소 시 예약금이 발생하는 곳도 있으니 확인 필요.</li>
+    </ul>
+  </div>
+
+  <div class="q-item-tuql">
+    <h3>지역 특수 조건</h3>
+    <ul>
+      <li><strong>주차:</strong> 발산역 인근은 주차가 혼잡할 수 있다. 업소 전용 주차장이 있는지 사전 확인.</li>
+      <li><strong>교통:</strong> 지하철 발산역 1번 출구 기준 도보 5~10분 거리에 업소가 밀집. 버스 노선은 강서구 전역에서 접근 가능.</li>
+      <li><strong>주변 상권:</strong> 식당·술집이 가까운 거리에 분포하므로, 가라오케 전·후 식사 코스로 조합 가능.</li>
+      <li><strong>소음 규제:</strong> 주거 지역 특성상 새벽 1시 이후 소음 민원 가능성. 업소 측에서 자체적으로 마감 시간을 앞당기는 경우도 있다.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 섹션 5: 선택 기준 요약 -->
+<section style="margin-bottom: 48px;">
+  <div class="q-section-title">실전 선택 기준 요약</div>
+
+  <div class="q-item-tuql">
+    <ol>
+      <li><strong>방문 목적 먼저 정하라.</strong> 가벼운 2인 모임인지, 대규모 회식인지에 따라 룸 타입과 업소 규모가 완전히 달라진다.</li>
+      <li><strong>예산 총합을 계산하라.</strong> 1인 단가 × 인원 × 시간 + 식음료 + 주차비. 이 총합이 실제 지출액이다.</li>
+      <li><strong>영업시간을 확인하라.</strong> 월요일 휴업, 자정 폐점 등 업소별 차이가 크다.</li>
+      <li><strong>장비 수준을 직접 봐라.</strong> 웹사이트 사진에 현혹되지 말고, 실제 룸 컨디션을 확인하거나 리뷰의 룸 사진을 참고.</li>
+      <li><strong>도우미 시스템 여부를 파악하라.</strong> 원치 않는 서비스가 자동 적용되는 구조라면, 이용 전에 반드시 거절 의사를 밝힐 것.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- 섹션 6: FAQ -->
+<section style="margin-bottom: 48px;">
+  <div class="q-section-title">자주 묻는 질문</div>
+
+  <div class="q-item-tuql">
+    <details class="q-faq-item">
+      <summary>발산 가라오케는 예약 없이 바로 가도 되나요?</summary>
+      <div class="faq-body">
+        평일 오후라면 대부분 예약 없이 바로 입장 가능하다. 하지만 금요일·토요일 저녁 7시 이후는 대기 시간이 발생할 수 있어 예약을 권장한다. 특히 4인 이상 이용 시 룸 확보를 위해 사전 예약이 안전하다.
+      </div>
+    </details>
+
+    <details class="q-faq-item">
+      <summary>1인 가격은 보통 어느 정도인가요?</summary>
+      <div class="faq-body">
+        발산 지역은 전반적으로 합리적 가격대를 유지하고 있다. 구체적 수치는 업소마다 상이하므로 직접 문의하는 것이 가장 정확하다. 다만 로컬 소규모 업소가 프랜차이즈 대비 가격이 낮은 경향이 있다.
+      </div>
+    </details>
+
+    <details class="q-faq-item">
+      <summary>도우미 서비스가 기본으로 붙나요?</summary>
+      <div class="faq-body">
+        업소마다 다르다. 일부 업소는 도우미 시스템이 기본 적용되어 자동으로 인원이 들어오고, 일부는 선택 사항이다. 이용 전 반드시 확인하고, 원하지 않는 경우 명확히 의사 표현을 해야 한다.
+      </div>
+    </details>
+
+    <details class="q-faq-item">
+      <summary>주차가 편리한가요?</summary>
+      <div class="faq-body">
+        발산역 주변은 주차 공간이 있는 편이지만, 혼잡 시간대(금·토 저녁)에는 주차장이 꽉 차는 경우가 있다. 업소 전용 주차장 유무를 예약 시 확인하고, 대중교통 이용이 더 편할 수도 있다.
+      </div>
+    </details>
+
+    <details class="q-faq-item">
+      <summary>최소 이용 시간이 정해져 있나요?</summary>
+      <div class="faq-body">
+        대부분 1시간부터 이용 가능하다. 다만 일부 업소는 최소 2시간 이상 예약을 요구하기도 한다. 특히 대형 룸이나 특수 룸은 최소 이용 시간이 길 수 있으니, 예약 시 확인 필수.
+      </div>
+    </details>
+
+    <details class="q-faq-item">
+      <summary>소음 관련 민원이 문제 되진 않나요?</summary>
+      <div class="faq-body">
+        발산은 주거 밀집 지역이라 새벽 시간 소음 민원 가능성이 존재한다. 업소 자체적으로 자정~새벽 1시 사이 마감하는 곳이 많으며, 이용자 또한 이 점을 고려해 이용 시간을 조율하는 것이 좋다.
+      </div>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <p>© 발산 가라오케 가이드 — 지역 정보 제공 목적이며, 업소와 직접적인 운영 관계가 아닙니다.</p>
+  <p style="margin-top: 8px;">가격 및 서비스 내용은 업소 사정에 따라 변경될 수 있습니다.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
