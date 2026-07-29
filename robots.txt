@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://balsan-karaoke-bar-note.nrb-apgujeong-guide.xyz/sitemap.xml
